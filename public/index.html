@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="hortcut icon" href="./#" />
+  <link rel="stylesheet" href="style.css">
+  <title>JONS Server and Ajax</title>
+</head>
+<body>
+  <h1 class="centered">JSON Server AJAX testing</h1>
+  <main>
+    <div class="my-5">
+      <div id="message"></div>
+      <div id="pageInfo"></div>
+      <div id="prev" class="btn centered">Prevous</div>
+      <div id="next" class="btn centered">Next</div>
+      <div id="output" class="my-2"></div>
+    </div>
+
+    <hr>
+    <div class="my-5">
+      <form id="myForm">
+        <input type="text" name="first" id="first">
+        <input type="text" name="last" id="last">
+        <input type="text" name="company" id="company">
+        <input type="submit" value="Submit" class="btn centered">
+      </form>
+    </div>
+    <div class="my-5">
+      <input type="search" name="search">
+      <button class="btn" id="search">Search</button>
+    </div>
+    <hr>
+    <div class="my-5">
+      <textarea name="" id="comment" cols="30" rows="5"></textarea>
+      <button class="btn" id="addcomment">Add Comment</button>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>

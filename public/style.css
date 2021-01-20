@@ -1,0 +1,38 @@
+.centered {
+  text-align: center;
+}
+.my-2 {
+  margin: 2% 0;
+}
+.my-5 {
+  margin: 5% 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 3px 18px;
+  background-color: rgb(26, 87, 107);
+  color: #eee;
+  border: 1px solid rgb(26, 87, 107);
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+main {
+  width: 65%;
+  height: auto;
+  display: block;
+  margin: 50px auto;
+  border: 5px solid rgb(17, 77, 62);
+  box-shadow: 4px 4px 8px rgba(0,0,0, .4);
+  padding: 5px 10px 15px;
+}
+form {
+  background-color: aliceblue;
+  border: 1px solid #444;
+  padding: 10px;
+}
