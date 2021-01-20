@@ -133,7 +133,7 @@ function makeGet(url) {
 }
 
 function makePost(url, requestType, data) {
-  const data = 'first=' + first + '&last=' + last + '&company=' + company;
+  let profileData = 'first=' + first + '&last=' + last + '&company=' + company;
 
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
@@ -145,7 +145,7 @@ function makePost(url, requestType, data) {
 
   xhr.open('POST', url + '/posts', true);
   xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  xhr.send(data)
+  xhr.send(profileData)
 }
 
 function loadComments() {

@@ -41,6 +41,12 @@
       "last": "McOnyan",
       "company": "Army Strong",
       "id": 7
+    },
+    {
+      "first": "Benjamin",
+      "last": "Smith",
+      "company": "Black Hawk",
+      "id": 8
     }
   ],
   "comments": [
@@ -153,6 +159,11 @@
       "postId": "7",
       "body": "aloha test asdf asdfadf asdva dfg",
       "id": 22
+    },
+    {
+      "postId": "8",
+      "body": "hello Benjamin",
+      "id": 23
     }
   ],
   "profile": {
