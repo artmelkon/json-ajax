@@ -9,7 +9,6 @@ const person = {
   last: "Doe",
   company: "New Discovery"
 }
-const stgVal = '/posts?first=Steve&last=Blacksmith&company=newworld';
 
 /**
  * Prevouse and Next button GET method
@@ -134,6 +133,8 @@ function makeGet(url) {
 }
 
 function makePost(url, requestType, data) {
+  const data = 'first=' + first + '&last=' + last + '&company=' + company;
+
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if(xhr.readyState == 4) {
